@@ -27,5 +27,14 @@ code = "PUMP_A"
 state = "정상"
 hours = 1200
 day = "2025-01-15"
-card = "설비: " + code + "\n상태: " + state + "\n가동: " + str(hours) + "시간\n점검: " +day
+card = (
+    "설비: "
+    + code
+    + "\n상태: "
+    + state
+    + "\n가동: "
+    + str(hours)
+    + "시간\n점검: "
+    + day
+)
 print(card)
